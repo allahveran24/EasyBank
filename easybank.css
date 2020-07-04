@@ -1,0 +1,222 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+html{
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+#container{
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0px auto;
+
+}
+#navbar{
+  width: 100%;
+  height: 9rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+#logo{
+  width: 33.3%;
+  padding-left: 4rem;
+}
+#logo img{
+  width: 20rem;
+}
+#menu{
+  width: 33.3%;
+}
+#menu ul{
+  display: flex;
+}
+#menu ul li{
+  padding-right: 4rem;
+  list-style: none;
+  font-size: 2rem;
+}
+#menu ul li a:hover{
+  padding-bottom: 3rem;
+  border-bottom: 2px solid black;
+  color: black;
+}
+#menu a{
+  text-decoration: none;
+  color: grey;
+}
+#n_button{
+  width: 33.3%;
+  padding-left: 15rem;
+}
+.button{
+  font-size: 1.5rem;
+  width: 20rem;
+  border: none;
+  border-radius: 4rem;
+  color: hsl(0, 0%, 100%);
+  padding: 1.3rem;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+#content{
+  width: 100%;
+  height: 75rem;
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  background-image: url(images/bg-intro-desktop.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+#text{
+  width: 48%;
+  padding-top: 26rem;
+  padding-left: 4rem;
+}
+#text h1{
+  font-size: 6rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+#text p{
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+#text input{
+  font-size: 2rem;
+}
+#picture{
+  width: 49%;
+  position: relative;
+  top: -10%;
+}
+#content_2{
+  width: 100%;
+  height: 60rem;
+  margin-left: 4rem;
+}
+#content_2 h1{
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  font-size: 4rem;
+}
+#content_2 p{
+  padding-bottom: 6rem;
+  font-size: 2rem;
+  color: grey;
+}
+#icons {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+#icons img{
+  padding-bottom: 2rem;
+}
+#icons h3{
+  font-size: 2.6rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+#icons p{
+  font-size: 1.5rem;
+  color: grey;
+}
+#articles{
+  background-color: #FBFAFE;
+  height: 80rem;
+  width: 100%;
+}
+#articles img{
+  width: 32rem;
+  height: 24.7rem;
+}
+#articles h2{
+  padding: 4rem;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+#pictures{
+  display: flex;
+}
+#pictures div{
+  width: 36rem;
+  background-color: white;
+  height: 55rem;
+  margin-right: 4rem;
+}
+.small-text{
+  color: grey;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+#pictures h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+#pictures p{
+  font-size: 1.8rem;
+  color: grey;
+  padding-left: 1rem;
+}
+#footer{
+  width: 100%;
+  height: 19rem;
+  background-color: #2A2942;
+  display: flex;
+}
+#first{
+  padding-left: 8rem;
+}
+.logo{
+  padding-top: 5rem;
+}
+.f_icon i{
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-top: 5rem;
+  padding-right: 2rem;
+}
+#second{
+  display: flex;
+  padding-top: 3.5rem;
+
+}
+#second a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
+#second p{
+  padding-top: 1.3rem;
+  padding-left: 18rem;
+}
+#third{
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 5rem;
+}
+#third i,p{
+  color: grey;
+  font-size: 1.6rem;
+}
+#third p{
+  padding-top: 2rem;
+}
